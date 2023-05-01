@@ -40,7 +40,7 @@ INNER JOIN departments ON dept_emp.dept_no = departments.dept_no
 WHERE dept_name = 'Sales'
 
 -- 7
--- Employees in Sales and Development
+-- Employees in Sales or Development
 SELECT e.emp_no, e.last_name, e.first_name, dept_name
 FROM employees AS e
 INNER JOIN dept_emp ON e.emp_no = dept_emp.emp_no

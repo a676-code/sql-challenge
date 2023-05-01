@@ -100,7 +100,7 @@ WHERE dept_name = 'Sales'
 ```
 ![6](images/6.png)
 
-## 7. Employees in Sales and Development
+## 7. Employees in Sales or Development
 ```
 SELECT e.emp_no, e.last_name, e.first_name, dept_name
 FROM employees AS e
